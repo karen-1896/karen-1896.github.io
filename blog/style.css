@@ -1,1 +1,85 @@
-h1{color: pink}
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Ranchers&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Nunito:wght@200;300&family=Ranchers&display=swap');
+
+body{
+  background-color : #cae4db;
+}
+
+.cardi{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://www.google.com/search?q=image+lyon&rlz=1C1CHBF_frFR811FR811&sxsrf=ALeKk02601PaKkGxrsxQZ5An3KJOzBiI4w:1615831121072&source=lnms&tbm=isch&biw=1242&bih=597#imgrc=u8F1J3cUX9XnJM);
+  background-size: cover;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Redressed', cursive;
+  font-size : 80px;
+}
+
+h2{
+  color: #00587A;
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+h3{
+  color: #ef4f4f;
+  font-family: 'Akaya Telivigala', cursive; }
+
+p{
+  font-family: 'Nunito', sans-serif;
+}
+
+.container{
+margin: 50px;
+padding: 50px;
+border-radius: 30px; 
+background-color: white;
+font-style: italic; 
+box-shadow: 0 7px 10px rgba(0,0,0,.1); 
+}
+
+.marge{
+  background-color : white; 
+ padding: 50px;
+  text-align: left ;}
+
+.yo{
+ padding: 50px;
+ text-align: left;
+}
+
+.hero{
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://media.routard.com/image/87/8/lyon.1556878.c1000x300.jpg);
+  background-size: cover;
+}
+
+img {
+  border-radius: 100px;
+}
+
+iframe{
+  border-radius: 50px; 
+}
+
+.btn{
+  background-color: #C70039;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14x;
+  width: 90px;
+}
